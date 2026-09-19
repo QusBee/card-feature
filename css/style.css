@@ -80,7 +80,6 @@ body {
   overflow: hidden;
   width: 100%;
   max-width: 31.4rem;
-  height: 25rem;
   box-shadow: 0 1.5rem 3rem -1.1rem rgb(131, 166, 210, 0.5);
 }
 
@@ -135,6 +134,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .card {
+    margin: 8rem 1.6rem;
+  }
+  
   .card__header {
     max-width: 54rem;
   }
@@ -171,6 +174,10 @@ body {
 }
 
 @media (min-width: 1440px) {
+  .card {
+    margin: 12rem 1.6rem;
+  }
+  
   .card__wrapper {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
